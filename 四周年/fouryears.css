@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+.box {
+    width: 1200px;
+    height: 100%;
+    margin: 30px auto;
+    position: relative;
+}
+
+.top {
+    height: 500px;
+    width: 1200px;
+}
+
+.top li {
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+
+.top li img {
+    width: 100%;
+}
+
+.button {
+    opacity: 0;
+}
+
+.btn-left,
+.btn-right {
+    width: 76px;
+    height: 112px;
+    position: absolute;
+    top: 70%;
+    margin-top: -56px;
+    background: url(./images1/prev.png) no-repeat;
+    z-index: 100;
+}
+
+.btn-right {
+    right: 0;
+    background: url(./images1/next.png) no-repeat;
+}
+
+/* 设置 轮播图片的大小 */
+
+.top img {
+    width: 10%;
+    height: 20%;
+    /* width: 30%;
+    height: 30%; */
+}
+
+.jumbotron {
+    margin-top: 18%;
+}
+
+.jumbotron .txt {
+    text-indent: 45px;
+}
+
+/* 主体中的 照片 */
+
+/* .Img {
+    position: relative;
+} */
+
+/* 图片的通用样式 */
+
+.show img {
+    width: 100%;
+    height: 100%;
+}
+
+.show h2 {
+    text-indent: 3%;
+    /* color: rgb(0, 255, 191); */
+    color: red;
+}
+
+/* .show .diff {
+    color: red;
+} */
+
+.description {
+    padding-top: 6%;
+}
+
+.description p {
+    width: 14rem;
+    height: 240px;
+    font-size: 20px;
+    margin-bottom: 20%;
+    writing-mode: tb-rl;
+    /* color: red; */
+}
+
+.description p:nth-child(1) {
+    color: #FF00F2;
+}
+
+.description p:nth-child(2) {
+    color: #9900FF;
+}
+
+/* 俏皮模样的图片样式 */
+
+.smart {
+    width: 100%;
+    height: 100%;
+}
+
+.des2 {
+    padding-top: 6%;
+}
+
+.des2 p {
+    width: 14rem;
+    /* height: 240px; */
+    height: 45rem;
+    font-size: 20px;
+    margin-bottom: 20%;
+    writing-mode: tb-rl;
+    color: #EB981C;
+}
+
+.jumbotron .top {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #EC4A8E;
+}
+
+/* .jumbotron .meet {
+    padding: 5px auto;
+} */
+
+/* .Img img {
+    width: 40%;
+    height: 20%;
+} */
+
+/* .Img .description {
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    font-size: 14px;
+    color: red;
+} */
+
+/* 设置视频播放 */
+
+.movie {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* display: none; */
+}
+
+/* 设置背景音乐 */
+
+.music {
+    position: fixed;
+    left: 30px;
+    top: 20px;
+}

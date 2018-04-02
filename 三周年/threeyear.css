@@ -1,0 +1,291 @@
+.top {
+    position: relative;
+    /* border: 1px solid #ccc; */
+    overflow: hidden;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+
+.top div {
+    float: left;
+}
+
+.top img {
+    float: left;
+    /* width: 200px;
+    height: 400px; */
+}
+
+#bottom {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    background: url('./images/26.jpg') repeat center;
+    /* position: absolute; */
+}
+
+/* 下面的文本内容的 盒子 连接的是 a 连接的 */
+
+/* 下面的第一个盒子 */
+
+.bottom .one {
+    display: none;
+    position: relative;
+}
+
+#one div {
+    display: inline-block;
+}
+
+#one img {
+    width: 25%;
+    height: 25%;
+    /* position: absolute; */
+}
+
+#one .descript {
+    position: absolute;
+    width: 30%;
+    height: 25%;
+    color: #7DE94E;
+    font-size: 20px;
+    bottom: 30%;
+    right: 5%;
+    /* padding-bottom: 10px; */
+}
+
+.descript .font {
+    font-size: 18px;
+}
+
+#one .firImg {
+    left: 10%;
+}
+
+/* 第二个盒子样式 */
+
+.bottom .two {
+    display: none;
+    position: relative;
+}
+
+#two img {
+    /* position: absolute; */
+    width: 28%;
+    height: 40%;
+}
+
+#two .libtwo {
+    position: absolute;
+    top: 10%;
+    left: 81%;
+}
+
+#two .libtwo img {
+    width: 100%;
+    height: 40%;
+}
+
+#two .libthree {
+    position: absolute;
+    top: 60%;
+    left: 81%;
+}
+
+#two .libthree img {
+    width: 100%;
+    height: 40%;
+}
+
+#two .des {
+    position: absolute;
+    top: 72%;
+    left: 34%;
+    color: #06F1A3;
+    font-size: 15px;
+    width: 43%;
+}
+
+/* 第三个盒子的样式 */
+
+.bottom .three {
+    display: none;
+    position: relative;
+}
+
+.three .beer img {
+    width: 26%;
+    height: 42%;
+}
+
+.beerDes {
+    width: 30%;
+    position: absolute;
+    top: 58%;
+    left: 68%;
+    font-size: 2rem;
+    color: #00B7FF;
+}
+
+/*  第四个盒子的样式 */
+
+.bottom .four {
+    display: none;
+    position: relative;
+}
+
+#four img {
+    width: 23%;
+    height: 30%;
+}
+
+#four .img-thumbnail {
+    width: 25%;
+    height: 28%;
+}
+
+/* .beaDes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+} */
+
+.beaDes .beautifulOne {
+    color: #18D6BD;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 17px;
+    width: 28%;
+    height: 28%;
+    /* background-color: #502899; */
+    /* 显示文字从上到下 从右到左排布的样式 */
+    writing-mode: tb-rl;
+}
+
+.beaDes .beautifulTwo {
+    position: absolute;
+    top: 78%;
+    left: 28%;
+    font-size: 18px;
+    color: #D9E710;
+    width: 20%;
+    height: 20%;
+}
+
+/* .beaThree img {
+    float: left;
+    left: 10%;
+    top: 10%;
+    width: 23%;
+    height: 23%;
+} */
+
+/* 第五个盒子的样式 */
+
+.bottom .five {
+    display: none;
+    position: relative;
+}
+
+#five img {
+    width: 26%;
+    height: 25%;
+    border-radius: 10px;
+}
+
+/* .graduateOne {
+    
+} */
+
+.graduateTwo {
+    margin-top: 14px;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 30%;
+    height: 40%;
+    color: #FF0022;
+    font-size: 2rem;
+}
+
+/* #five .gradiuteTwo img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+} */
+
+/* 第六个盒子的样式 */
+
+.bottom .six {
+    display: none;
+    position: relative;
+    overflow: hidden;
+}
+
+#six img {
+    width: 23%;
+    height: 25%;
+    border-radius: 10px;
+}
+
+.moveOne {
+    display: inline-block;
+    /* position: absolute;
+    top: 10%;
+    left: 10%; */
+}
+
+.moveTwo {
+    float: left;
+    position: absolute;
+    top: 0;
+    width: 94%;
+    /* height: 100%; */
+    left: 80%;
+}
+
+.moveTwo img {
+    width: 23%;
+    height: 25%;
+    border-radius: 10px;
+}
+
+.desOne {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 18px;
+    color: #00AEFF;
+    width: 20%;
+    height: 30%;
+}
+
+.desTwo {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-size: 18px;
+    width: 20%;
+    height: 40%;
+    color: #FFE600;
+}
+
+/* 给需要展示的盒子 一个样式  让他能够展示出来 */
+
+.bottom .active {
+    display: block;
+}
+
+/* 音乐播放控件 */
+
+.ado {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}

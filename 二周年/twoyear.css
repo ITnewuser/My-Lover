@@ -1,0 +1,188 @@
+body {
+    overflow: hidden;
+}
+
+#box {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.one {
+    position: relative;
+    overflow: hidden;
+}
+
+.one .left {
+    font-size: 20px;
+    width: 20%;
+    position: absolute;
+    top: -35%;
+    /* top: 3%; */
+    left: 2%;
+    line-height: 110%;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    /* transition-delay:  */
+    /* color: #FF01B3; */
+}
+
+.one .right {
+    position: absolute;
+    font-size: 20px;
+    width: 20%;
+    /* bottom: 60%; */
+    bottom: -40%;
+    right: 2%;
+    line-height: 110%;
+    /* color: #DD2E17; */
+
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.two {
+    position: relative;
+    overflow: hidden;
+}
+
+.two .left {
+    position: absolute;
+    top: 20px;
+    left: -20%;
+    font-size: 20px;
+    width: 20%;
+    color: #EEFF00;
+    line-height: 110%;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.two .right {
+    position: absolute;
+    bottom: 20px;
+    right: -20%;
+    width: 20%;
+    font-size: 20px;
+    color: #EEFF00;
+    line-height: 110%;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.three {
+    position: relative;
+    overflow: hidden;
+}
+
+.three .center {
+    position: absolute;
+    top: -25%;
+    left: 18%;
+    width: 70%;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FF3300;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.four {
+    position: relative;
+    overflow: hidden;
+}
+
+.four .center {
+    position: absolute;
+    top: 8%;
+    left: -50%;
+    width: 50%;
+    font-size: 20px;
+    line-height: 120%;
+    color: #E5FF00;
+    /* background-color: ; */
+
+
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}
+
+.five {
+    position: relative;
+    overflow: hidden;
+}
+
+.five .center {
+    position: absolute;
+    /* top: 8%; */
+    top: 100%;
+    left: 16%;
+    
+    width: 70%;
+    line-height: 110%;
+    font-size: 20px;
+    color: rgb(243, 220, 231);
+    
+
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+
+#box img {
+    width: 100%;
+    height: 100%;
+}
+
+.listBox {
+    position: fixed;
+    top: 30%;
+    text-align: center;
+    right: 10px;
+    width: 37px;
+    height: 107px;
+}
+
+.listBox ul {
+    width: 100%;
+    height: 100%;
+}
+
+#list li {
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    line-height: 100%;
+    /* background-color: red; */
+}
+
+#list li span {
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    border: 1px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+#list .active {
+    background: red;
+}
+
+
+/* 每一张图片上的 文字样式   */
+
+
+/* 背景音乐 */
+
+.Radio {
+    position: fixed;
+    bottom: 5px;
+    left: 10px;
+}
